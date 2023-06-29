@@ -12,6 +12,8 @@ I am sure that taking all the stages of the course from RS School, as well as my
 # Skills and Proficiency
 - HTML
 - CSS (SASS/SCSS)
+- Adobe Photoshop, Illustrator
+- C++ (basic)
 # Languages
 - English - Intermediate, B1 (according to the results of the test proposed by EPAM)
 - Belarusian - native speaker
