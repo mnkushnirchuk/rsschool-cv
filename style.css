@@ -48,6 +48,7 @@ body{
   .nav-link {
     padding: 0 20px;
     line-height: 30px;
+    text-shadow: none;
   }
   .main-container {
     display: flex;
@@ -84,9 +85,9 @@ body{
 }
 .photo{
     width: 260px;
-    height: 360px;
+    height: 260px;
     border-radius: 50%;
-    border:1px solid #4BAA46;
+    border:20px solid #d9d9d9;
 }
 .logo{
     width: 150px;
@@ -95,6 +96,7 @@ body{
 a{
     text-decoration: none;
     color: #030506;
+    text-shadow: 1.5px 1px 10px #4BAA46;
 }
 .footer{
     width: 100%;
