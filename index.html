@@ -26,6 +26,11 @@
         </header>
         <main class="main">
             <div class="container main-container">
+                <section class="section section-profile" id="profile">
+                    <h1 class="section-title">Marharyta Kushnirchuk</h1>
+                    <img src="./assets/img/photo.jpg" alt="photo" class="photo">
+                    <p><span>Location: </span>Brest, Belarus</p>
+                </section>
                 <section class="section section-contacts" id="contacts">
                     <h2 class="section-title">Contacts:</h2>
                     <ul class="list">
@@ -34,11 +39,6 @@
                         <li class="list-item"><span>GitHub: </span><a href="https://github.com/mnkushnirchuk">mnkushnirchuk</a></li>
                         <li class="list-item"><span>Telegram: </span><a href="https://t.me/mnkushnirchuk">@mnkushnirchuk</a></li>
                     </ul>
-                </section>
-                <section class="section section-profile" id="profile">
-                    <h1 class="section-title">Marharyta Kushnirchuk</h1>
-                    <img src="./assets/img/photo.jpg" alt="photo" class="photo">
-                    <p><span>Location: </span>Brest, Belarus</p>
                 </section>
                 <section class="section" id="summary">
                     <h2 class="section-title">Briefly About Myself:</h2>
@@ -66,12 +66,19 @@
                 </section>
                 <section class="section section-code" id="code">
                     <h2 class="section-title">Example of code:</h2>
-                    <p><pre>$(document).ready(function(){</pre></p>
-                    <p><pre>    $('.header__burger').click(function(event){</pre></p>
-                    <p><pre>        $('.header__burger,.header__menu').toggleClass('active');</pre></p>
-                    <p><pre>        $('body').toggleClass('lock');</pre></p>
-                    <p><pre>    });</pre></p>
-                    <p><pre>});</pre></p>
+                    <div class="example-code">
+                        <pre>
+                            <code>                  <!--Не соблюдается форматирование кода, так как используется тег <pre>-->
+$(document).ready(function(){
+    $('.header__burger').click(function(event){
+        $('.header__burger,.header__menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+}); 
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="rectangle"></div>
                 </section>
                 <section class="section" id="education">
                     <h2 class="section-title">Education:</h2>
