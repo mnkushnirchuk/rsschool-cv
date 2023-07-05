@@ -22,7 +22,7 @@ body{
     justify-content: space-between;
     font-family: Lato;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 .container{
     max-width: 1440px;
@@ -30,10 +30,10 @@ body{
 }
 .header{
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: #d9d9d9;
     position: fixed;
-    opacity: 0.95;
+    opacity: 0.9;
 }
 .nav-list {
     display: flex;
@@ -47,7 +47,7 @@ body{
   }
   .nav-link {
     padding: 0 20px;
-    line-height: 50px;
+    line-height: 30px;
   }
   .main-container {
     display: flex;
@@ -61,7 +61,7 @@ body{
   }
   .section {
     width: 50%;
-    padding: 0px 140px 50px 20px;
+    padding: 35px 140px 0px 30px;
   }
   
   @media (max-width: 768px) {
