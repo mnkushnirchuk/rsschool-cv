@@ -23,6 +23,7 @@ body{
     font-family: Lato;
     font-size: 18px;
     line-height: 1.7;
+    background-color: #ed87c4;
 }
 .container{
     max-width: 1440px;
@@ -71,7 +72,7 @@ body{
     }
   }
 .section-title {
-    color: #4BAA46;
+    color: #9ced87;
     font-family: Lato;
     font-weight: 300;
     font-size: 27px;
@@ -96,12 +97,12 @@ body{
 a{
     text-decoration: none;
     color: #030506;
-    text-shadow: 1.5px 1px 10px #4BAA46;
+    text-shadow: 1.5px 1px 10px #9ced87;
 }
 .footer{
     width: 100%;
     height: 70px;
-    background-color: #4BAA46;
+    background-color: #9ced87;
     padding-top: 10px;
 }
 .container-footer{
