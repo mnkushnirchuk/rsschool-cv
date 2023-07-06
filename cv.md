@@ -3,8 +3,11 @@
 
 # My Contact Info
 **Phone:** +375 29 829 78 54
+
 **Email:** rita.kushnirchuk@gmail.com
+
 **GitHub:** [mnkushnircuk](https://github.com/mnkushnirchuk)
+
 **Telegram:** [Маргарытка Кушнірчук](https://t.me/mnkushnirchuk)
 
 # Briefly About Myself
