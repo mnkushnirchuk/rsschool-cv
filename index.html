@@ -1,10 +1,104 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-</body>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <link rel="icon" href="assets/favicon.ico">
+        <title>CV</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section section-profile" id="profile">
+                    <h1 class="section-title main-title">Marharyta Kushnirchuk</h1>
+                    <img src="./assets/img/photo.jpg" alt="photo" class="photo">
+                    <p><span>Location: </span>Brest, Belarus</p>
+                </section>
+                <section class="section section-contacts" id="contacts">
+                    <h2 class="section-title">Contacts:</h2>
+                    <ul class="list list-contacts">
+                        <li class="list-item"><span>Phone: </span>+375 29 829 78 64</li>
+                        <li class="list-item"><span>Email: </span>rita.kushnirchuk@gmail.com</li>
+                        <li class="list-item"><span>GitHub: </span><a href="https://github.com/mnkushnirchuk" target="_ blank">mnkushnirchuk</a></li>
+                        <li class="list-item"><span>Telegram: </span><a href="https://t.me/mnkushnirchuk">@mnkushnirchuk</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Briefly About Myself:</h2>
+                    <p>I am a second-year student of BrSTU. Specialty: electronic marketing (qualification: marketing programmer). Previously, I studied graphic design, as a result of which I began to make custom logos. In the first year of university, we studied the basic development of web pages. This sparked interest in me, so I began to study frontend development through online resources. RS School for me is an opportunity to study frontend at a higher level, communicate with new people, gain experience and motivation.</p>
+                    <p>I am sure that taking all the stages of the course from RS School, as well as my personal interest and desire, will help me in the future to become a highly qualified Frontend Developer.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills and Proficiency:</h2>
+                    <ul class="list">
+                        <li class="list-item">C++ (basic)</li>
+                        <li class="list-item">HTML5</li>
+                        <li class="list-item">CSS3 (SASS/SCSS)</li>
+                        <li class="list-item">Adobe Photoshop, Illustrator</li>
+                        <li class="list-item">CorelDraw</li>
+                    </ul>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title">Courses:</h2>
+                    <p><a href="https://rs.school/js/" target="_ blank">School JavaScript/Front-end course (Stage 0 / in process)</a></p>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects:</h2>
+                    <p>CV (сurriculum vitae): <a href="https://mnkushnirchuk.github.io/rsschool-cv/" target="_ blank">link</a></p>
+                </section>
+                <section class="section section-code" id="code">
+                    <h2 class="section-title">Example of code:</h2>
+                    <div class="example-code">
+                        <pre>
+                            <code><!--В данном теге форматирование кода не соблюдается, так как он обернут в тег <pre>, который учитывает каждый отступ и отображает его на веб-странице-->
+$(document).ready(function(){
+    $('.header__burger').click(function(event){
+        $('.header__burger,.header__menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+}); 
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="rectangle"></div>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education:</h2>
+                    <p>Second-year student of Brest State Technical University.</p>
+                    <p><span>Speciality: </span>Electronic Marketing (marketer / programmer)</p>
+                </section>
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages:</h2>
+                    <p>English - Intermediate, B1 (according to the results of the test proposed by EPAM)</p>
+                    <p>Belarusian - native speaker</p>
+                    <p>Russian - native speaker</p>
+                    <p>Ukrainian - basic</p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container container-footer"> 
+                <a href="https://rs.school/js/" target="_ blank"><img src="assets/img/logo.svg" alt="logo" class="logo"></a>
+                <p class="footer-text">2023,<a href="https://github.com/mnkushnirchuk" class="footer-link" target="_ blank"> My GitHub</a></p>
+            </div>
+        </footer>
+    </body>
 </html>
